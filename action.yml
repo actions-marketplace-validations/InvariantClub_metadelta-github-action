@@ -21,7 +21,8 @@ inputs:
     default: 5
     description: |
       Number of days to save the diff as an artifact for. Clicking the link
-      after this period will not work.
+      after this period will not work; you can just trigger the action to be
+      run again, though, and get a new link.
 
 runs:
   using: "composite"
