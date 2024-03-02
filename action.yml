@@ -1,6 +1,7 @@
 name: Hasura Permission Diff with Metadelta
-icon: check-circle
-color: purple
+branding:
+  icon: check-circle
+  color: purple
 
 description: |
   On PR, compute the difference between the proposed changes (new) and the
