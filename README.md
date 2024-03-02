@@ -5,11 +5,13 @@ permissions using [Metadelta](https://invariant.club/).
 
 Usage:
 
-```
+```yaml
 jobs:
   compute-diff:
     permissions:
+      # To upload artifacts
       contents: write
+      # To write a comment on the PR
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
