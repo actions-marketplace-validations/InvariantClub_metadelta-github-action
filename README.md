@@ -13,7 +13,7 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
-      - uses: InvariantClub/metadelta-github-action@v1.1
+      - uses: InvariantClub/metadelta-github-action@v1.2
         with:
           # Repo-relative path to the hasura metadata folder.
           hasura_path: hasura/metadata
